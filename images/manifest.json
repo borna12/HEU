@@ -1,0 +1,67 @@
+{
+  "id" : "https://borna12.github.io/HEU/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in borna12/HEU project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2483,
+    "id" : "https://borna12.github.io/HEU/images/1/canvas/",
+    "label" : {
+      "none" : [ "1" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://borna12.github.io/HEU/images/1/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://borna12.github.io/HEU/images/1/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 78,
+              "height" : 105
+            }, {
+              "width" : 156,
+              "height" : 210
+            }, {
+              "width" : 311,
+              "height" : 420
+            }, {
+              "width" : 621,
+              "height" : 839
+            }, {
+              "width" : 1242,
+              "height" : 1678
+            }, {
+              "width" : 2483,
+              "height" : 3355
+            } ],
+            "profile" : "level0",
+            "width" : 2483,
+            "id" : "https://borna12.github.io/HEU/images/1",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 3355
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2483,
+          "id" : "https://borna12.github.io/HEU/images/1/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 3355
+        },
+        "target" : "https://borna12.github.io/HEU/images/1/canvas/"
+      } ]
+    } ],
+    "height" : 3355
+  } ]
+}
