@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 78,
+    "height" : 105
+  }, {
+    "width" : 155,
+    "height" : 209
+  }, {
+    "width" : 309,
+    "height" : 418
+  }, {
+    "width" : 617,
+    "height" : 835
+  }, {
+    "width" : 1234,
+    "height" : 1670
+  }, {
+    "width" : 2467,
+    "height" : 3339
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2467,
+  "@id" : "https://borna12.github.io/HEU/images/3",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3339
+}
