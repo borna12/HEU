@@ -1,66 +1,336 @@
 {
-  "id" : "https://borna12.github.io/HEU/images/manifest.json",
-  "label" : {
-    "en" : [ "All images loaded in borna12/HEU project" ]
-  },
-  "type" : "Manifest",
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "width" : 2499,
-    "id" : "https://borna12.github.io/HEU/images/2/canvas/",
-    "label" : {
-      "none" : [ "2" ]
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://borna12.github.io/HEU/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in borna12/HEU project"
+        ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://borna12.github.io/HEU/images/2/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://borna12.github.io/HEU/images/2/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 79,
-              "height" : 105
-            }, {
-              "width" : 157,
-              "height" : 210
-            }, {
-              "width" : 313,
-              "height" : 419
-            }, {
-              "width" : 625,
-              "height" : 837
-            }, {
-              "width" : 1250,
-              "height" : 1674
-            }, {
-              "width" : 2499,
-              "height" : 3348
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 2499,
-            "@id" : "https://borna12.github.io/HEU/images/2",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 3348
-          } ],
-          "format" : "image/jpeg",
-          "width" : 2499,
-          "id" : "https://borna12.github.io/HEU/images/2/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 3348
+    "items": [
+        {
+            "id": "https://borna12.github.io/HEU/images/3/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "3"
+                ]
+            },
+            "height": 3339,
+            "width": 2467,
+            "items": [
+                {
+                    "id": "https://borna12.github.io/HEU/images/3/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://borna12.github.io/HEU/images/3/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://borna12.github.io/HEU/images/3/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 78,
+                                                "height": 105
+                                            },
+                                            {
+                                                "width": 155,
+                                                "height": 209
+                                            },
+                                            {
+                                                "width": 309,
+                                                "height": 418
+                                            },
+                                            {
+                                                "width": 617,
+                                                "height": 835
+                                            },
+                                            {
+                                                "width": 1234,
+                                                "height": 1670
+                                            },
+                                            {
+                                                "width": 2467,
+                                                "height": 3339
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2467,
+                                        "@id": "https://borna12.github.io/HEU/images/3",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3339,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://borna12.github.io/HEU/images/3/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://borna12.github.io/HEU/images/2/canvas/"
-      } ]
-    } ],
-    "height" : 3348
-  } ]
+        {
+            "id": "https://borna12.github.io/HEU/images/2/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "2"
+                ]
+            },
+            "height": 3348,
+            "width": 2499,
+            "items": [
+                {
+                    "id": "https://borna12.github.io/HEU/images/2/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://borna12.github.io/HEU/images/2/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://borna12.github.io/HEU/images/2/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 79,
+                                                "height": 105
+                                            },
+                                            {
+                                                "width": 157,
+                                                "height": 210
+                                            },
+                                            {
+                                                "width": 313,
+                                                "height": 419
+                                            },
+                                            {
+                                                "width": 625,
+                                                "height": 837
+                                            },
+                                            {
+                                                "width": 1250,
+                                                "height": 1674
+                                            },
+                                            {
+                                                "width": 2499,
+                                                "height": 3348
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2499,
+                                        "@id": "https://borna12.github.io/HEU/images/2",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3348,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://borna12.github.io/HEU/images/2/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://borna12.github.io/HEU/images/1/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "1"
+                ]
+            },
+            "height": 3355,
+            "width": 2483,
+            "items": [
+                {
+                    "id": "https://borna12.github.io/HEU/images/1/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://borna12.github.io/HEU/images/1/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://borna12.github.io/HEU/images/1/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 78,
+                                                "height": 105
+                                            },
+                                            {
+                                                "width": 156,
+                                                "height": 210
+                                            },
+                                            {
+                                                "width": 311,
+                                                "height": 420
+                                            },
+                                            {
+                                                "width": 621,
+                                                "height": 839
+                                            },
+                                            {
+                                                "width": 1242,
+                                                "height": 1678
+                                            },
+                                            {
+                                                "width": 2483,
+                                                "height": 3355
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2483,
+                                        "@id": "https://borna12.github.io/HEU/images/1",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3355,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://borna12.github.io/HEU/images/1/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://borna12.github.io/HEU/images/4/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "4"
+                ]
+            },
+            "height": 3379,
+            "width": 2483,
+            "items": [
+                {
+                    "id": "https://borna12.github.io/HEU/images/4/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://borna12.github.io/HEU/images/4/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://borna12.github.io/HEU/images/4/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 78,
+                                                "height": 106
+                                            },
+                                            {
+                                                "width": 156,
+                                                "height": 212
+                                            },
+                                            {
+                                                "width": 311,
+                                                "height": 423
+                                            },
+                                            {
+                                                "width": 621,
+                                                "height": 845
+                                            },
+                                            {
+                                                "width": 1242,
+                                                "height": 1690
+                                            },
+                                            {
+                                                "width": 2483,
+                                                "height": 3379
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2483,
+                                        "@id": "https://borna12.github.io/HEU/images/4",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3379,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://borna12.github.io/HEU/images/4/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
